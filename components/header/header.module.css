@@ -1,0 +1,14 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.homeBtn {
+	font-size: 24px;
+}
+
+.homeBtn:hover {
+	color: cornflowerblue;
+}

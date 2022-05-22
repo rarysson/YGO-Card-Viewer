@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Layout from "../components/layout";
-import CardType from "../components/cardType";
-
-const cardTypes = ["beast", "dragon", "fairy", "insect", "machine", "psychic", "pyro", "warrior", "zombie"];
+import Layout from "../components/layout/layout";
+import CardType from "../components/cardType/cardType";
+import { cardTypes } from "../utils/cardTypes";
 
 export default function Home() {
   return (
