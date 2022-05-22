@@ -14,6 +14,8 @@ export default function Card({ card }) {
 						width="168"
 						height="246"
 						alt={card.title}
+						placeholder="blur"
+						blurDataURL="/images/back.webp"
 					/>
 				</a>
 			</Link>
